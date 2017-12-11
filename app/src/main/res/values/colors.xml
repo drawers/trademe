@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="trademeYellow">#FBCC47</color>
+    <color name="trademeOrange">#D87D04</color>
+    <color name="trademeDarkOrange">#AD531A</color>
+    <color name="trademeLightBlue">#7BADDE</color>
+    <color name="trademeDarkBlue">#0065CC</color>
+</resources>

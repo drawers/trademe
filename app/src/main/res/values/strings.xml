@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TradeMe Example</string>
+    <string name="message_error">An error has occurred</string>
+    <string name="categories">Categories</string>
+</resources>

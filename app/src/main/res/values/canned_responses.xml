@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category_child_depth_0_response_body">
+{
+    "CanBeSecondCategory": true,
+    "CanHaveSecondCategory": true,
+    "HasClassifieds": true,
+    "IsLeaf": false,
+    "Name": "Trade Me Motors",
+    "Number": "0001-",
+    "Path": "/Trade-Me-Motors"
+}
+    </string>
+    <string name="category_child_depth_1_response_body">
+{
+    "CanBeSecondCategory": true,
+    "CanHaveSecondCategory": true,
+    "HasClassifieds": true,
+    "IsLeaf": false,
+    "Name": "Trade Me Motors",
+    "Number": "0001-",
+    "Path": "/Trade-Me-Motors",
+    "Subcategories": [
+        {
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Cars",
+            "Number": "0001-0268-",
+            "Path": "/Trade-Me-Motors/Cars"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Motorbikes",
+            "Number": "0001-0026-",
+            "Path": "/Trade-Me-Motors/Motorbikes"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Boats &amp; marine",
+            "Number": "0001-0348-",
+            "Path": "/Trade-Me-Motors/Boats-marine"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Car parts &amp; accessories",
+            "Number": "0001-0877-",
+            "Path": "/Trade-Me-Motors/Car-parts-accessories"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Aircraft",
+            "Number": "0001-1484-",
+            "Path": "/Trade-Me-Motors/Aircraft"
+        },
+        {
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Buses",
+            "Number": "0001-1954-",
+            "Path": "/Trade-Me-Motors/Buses"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Car stereos",
+            "Number": "0001-1245-",
+            "Path": "/Trade-Me-Motors/Car-stereos"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Caravans &amp; motorhomes",
+            "Number": "0001-0028-",
+            "Path": "/Trade-Me-Motors/Caravans-motorhomes"
+        },
+        {
+            "AreaOfBusiness": 3,
+            "HasClassifieds": true,
+            "IsLeaf": true,
+            "Name": "Horse floats",
+            "Number": "0001-3930-",
+            "Path": "/Trade-Me-Motors/Horse-floats"
+        },
+        {
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Specialist cars",
+            "Number": "0001-3931-",
+            "Path": "/Trade-Me-Motors/Specialist-cars"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Trailers",
+            "Number": "0001-1259-",
+            "Path": "/Trade-Me-Motors/Trailers"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Trucks",
+            "Number": "0001-1260-",
+            "Path": "/Trade-Me-Motors/Trucks"
+        },
+        {
+            "AreaOfBusiness": 3,
+            "HasClassifieds": true,
+            "IsLeaf": true,
+            "Name": "Wrecked cars",
+            "Number": "0001-8532-",
+            "Path": "/Trade-Me-Motors/Wrecked-cars"
+        }
+    ]
+}
+    </string>
+    <string name="category_root_depth_1_response_body">
+{
+    "IsLeaf": false,
+    "Name": "Root",
+    "Number": "",
+    "Path": "",
+    "Subcategories": [
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Trade Me Motors",
+            "Number": "0001-",
+            "Path": "/Trade-Me-Motors"
+        },
+        {
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Trade Me Property",
+            "Number": "0350-",
+            "Path": "/Trade-Me-Property"
+        },
+        {
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Trade Me Jobs",
+            "Number": "5000-",
+            "Path": "/Trade-Me-Jobs"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Antiques &amp; collectables",
+            "Number": "0187-",
+            "Path": "/Antiques-collectables"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Art",
+            "Number": "0339-",
+            "Path": "/Art"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Baby gear",
+            "Number": "0351-",
+            "Path": "/Baby-gear"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Books",
+            "Number": "0193-",
+            "Path": "/Books"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Building &amp; renovation",
+            "Number": "5964-",
+            "Path": "/Building-renovation"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Business, farming &amp; industry",
+            "Number": "0010-",
+            "Path": "/Business-farming-industry"
+        },
+        {
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Clothing &amp; Fashion",
+            "Number": "0153-",
+            "Path": "/Clothing-Fashion"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Computers",
+            "Number": "0002-",
+            "Path": "/Computers"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Crafts",
+            "Number": "0341-",
+            "Path": "/Crafts"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Electronics &amp; photography",
+            "Number": "0124-",
+            "Path": "/Electronics-photography"
+        },
+        {
+            "AreaOfBusiness": 1,
+            "HasClassifieds": true,
+            "IsLeaf": true,
+            "Name": "Flatmates wanted",
+            "Number": "2975-",
+            "Path": "/Flatmates-wanted"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Gaming",
+            "Number": "0202-",
+            "Path": "/Gaming"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Health &amp; beauty",
+            "Number": "4798-",
+            "Path": "/Health-beauty"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Home &amp; living",
+            "Number": "0004-",
+            "Path": "/Home-living"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Jewellery &amp; watches",
+            "Number": "0246-",
+            "Path": "/Jewellery-watches"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Mobile phones",
+            "Number": "0344-",
+            "Path": "/Mobile-phones"
+        },
+        {
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Movies &amp; TV",
+            "Number": "0003-",
+            "Path": "/Movies-TV"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Music &amp; instruments",
+            "Number": "0343-",
+            "Path": "/Music-instruments"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Pets &amp; animals",
+            "Number": "9425-",
+            "Path": "/Pets-animals"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Pottery &amp; glass",
+            "Number": "0340-",
+            "Path": "/Pottery-glass"
+        },
+        {
+            "HasClassifieds": true,
+            "IsLeaf": false,
+            "Name": "Services",
+            "Number": "9334-",
+            "Path": "/Services"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Sports",
+            "Number": "0005-",
+            "Path": "/Sports"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Toys &amp; models",
+            "Number": "0347-",
+            "Path": "/Toys-models"
+        },
+        {
+            "CanBeSecondCategory": true,
+            "CanHaveSecondCategory": true,
+            "IsLeaf": false,
+            "Name": "Travel, events &amp; activities",
+            "Number": "9374-",
+            "Path": "/Travel-events-activities"
+        }
+    ]
+}        
+    </string>
+    <string name="search_two_row_response_body">
+{
+    "DidYouMean": "",
+    "FoundCategories": [],
+    "List": [
+        {
+            "AdditionalData": {
+                "BulletPoints": [],
+                "Tags": []
+            },
+            "AsAt": "/Date(1512808099199)/",
+            "BuyNowPrice": 137,
+            "Category": "0153-0438-3720-",
+            "CategoryPath": "/Clothing-Fashion/Men/Jackets",
+            "EndDate": "/Date(1513038780000)/",
+            "HasBuyNow": true,
+            "HasGallery": true,
+            "HasReserve": true,
+            "IsBold": true,
+            "IsFeatured": true,
+            "IsNew": true,
+            "ListingId": 6229734,
+            "ListingLength": null,
+            "NoteDate": "/Date(0)/",
+            "PictureHref": "https://images.tmsandbox.co.nz/photoserver/thumb/893921.jpg",
+            "PriceDisplay": "$117.00",
+            "PromotionId": 4,
+            "Region": "Auckland",
+            "ReserveState": 2,
+            "StartDate": "/Date(1512434074380)/",
+            "StartPrice": 117,
+            "Subtitle": "Extra = feature Combo",
+            "Suburb": "Auckland City",
+            "Title": "Mens Fashionista Overcoat - L"
+        },
+        {
+            "AdditionalData": {
+                "BulletPoints": [],
+                "Tags": []
+            },
+            "AsAt": "/Date(1512808099199)/",
+            "BuyNowPrice": 209.84,
+            "Category": "0153-0438-3720-",
+            "CategoryPath": "/Clothing-Fashion/Men/Jackets",
+            "EndDate": "/Date(1512846000000)/",
+            "HasBuyNow": true,
+            "HasFreeShipping": true,
+            "HasGallery": true,
+            "ListingId": 6236176,
+            "ListingLength": null,
+            "NoteDate": "/Date(0)/",
+            "PictureHref": "https://images.tmsandbox.co.nz/photoserver/thumb/3160851.jpg",
+            "PriceDisplay": "$99.75",
+            "PromotionId": 2,
+            "Region": "Otago",
+            "StartDate": "/Date(1512673278447)/",
+            "StartPrice": 99.75,
+            "Subtitle": "Ranked 980 in the Sandbox",
+            "Suburb": "Dunedin",
+            "Title": "Pro1 Alpha 0980"
+        }
+    ],
+    "Page": 1,
+    "PageSize": 40,
+    "TotalCount": 40
+}
+    </string>
+</resources>
