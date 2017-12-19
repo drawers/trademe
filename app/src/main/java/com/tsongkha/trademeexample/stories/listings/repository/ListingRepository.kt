@@ -9,4 +9,5 @@ import io.reactivex.Observable
 interface ListingRepository {
 
     fun byCategory(category: String, rows: Int) : Observable<Listing>
+
 }

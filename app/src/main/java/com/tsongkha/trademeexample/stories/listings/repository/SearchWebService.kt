@@ -13,6 +13,6 @@ interface SearchWebService {
     @GET("v1/Search/General.json")
     fun byCategory(@Query("category") category: String,
                    @Query("rows") rows: Int,
-                   @Query("photo_size") photoSize : String = "List") : Observable<SearchResult>
-
+                   @Query("photo_size") photoSize : String = "List",
+                   @Query("search_string") searchString : String = "") : Observable<SearchResult>
 }

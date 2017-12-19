@@ -18,13 +18,11 @@ class ListingActivity : DaggerAppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_listing)
 
-        actionBar
-
         val intent = getIntent()
         val uri = intent.data
         val category = uri.lastPathSegment
         val args = Bundle().apply { putString(CategoryContract.ARG_CATEGORY_NUMBER, category) }
-        if (supportFragmentManager.findFragmentByTag(TAG) != null) {
+        if (supportFragmentManager.findFragmentByTag(TAG) == null) {
             supportFragmentManager.beginTransaction()
                     .add(R.id.listing_fragment_container, ListingFragment.instantiate(args), TAG)
                     .commit()
