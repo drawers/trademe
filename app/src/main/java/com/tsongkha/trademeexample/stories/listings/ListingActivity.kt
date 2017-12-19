@@ -10,15 +10,24 @@ import dagger.android.support.DaggerAppCompatActivity
  */
 class ListingActivity : DaggerAppCompatActivity() {
 
+    companion object {
+        val TAG = "Listing"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_listing)
+
+        actionBar
+
         val intent = getIntent()
         val uri = intent.data
         val category = uri.lastPathSegment
         val args = Bundle().apply { putString(CategoryContract.ARG_CATEGORY_NUMBER, category) }
-        supportFragmentManager.beginTransaction()
-                .add(R.id.listing_fragment_container, ListingFragment.instantiate(args))
-                .commit()
+        if (supportFragmentManager.findFragmentByTag(TAG) != null) {
+            supportFragmentManager.beginTransaction()
+                    .add(R.id.listing_fragment_container, ListingFragment.instantiate(args), TAG)
+                    .commit()
+        }
     }
 }
